@@ -36,6 +36,8 @@ section img {
   max-width: 85%;
   display: block;
   margin: auto;
+  border: solid white 5px;
+  border-radius: 5px;
 }
 
 section figcaption {
