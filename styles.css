@@ -1,12 +1,39 @@
 .container {
-  width: 800px;
+  width: 90%;
   margin: auto;
-  background-color: lightgray;
+  background-color: royalblue;
+  color: white;
   border-radius: 5px;
 }
 
+body {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+header a:hover {
+  color: lightgrey;
+}
+
+#caesarlink {
+  padding-right: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
 section img {
-  max-width: 700px;
+  max-width: 85%;
   display: block;
   margin: auto;
 }
@@ -14,4 +41,9 @@ section img {
 section figcaption {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
